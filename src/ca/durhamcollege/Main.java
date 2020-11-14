@@ -1,3 +1,4 @@
+//Group:            15
 //Name:             Ahmed Butt, Michai Pryce
 //Student ID:       100770449,
 //Last Modified:    November 14, 2020
@@ -54,7 +55,7 @@ public class Main
         //Output Loop
         for(int person = 0; person < 3; ++person) //loop through each person
         {
-            System.out.print("Score details for " + names[person] + ":\n");
+            System.out.print("Score details for " + names[person] + ":\n"); //display title with name of person
 
             for(int game = 0; game < 2; ++game) //loop through each game
             {
