@@ -1,7 +1,7 @@
 //Group:            15
 //Name:             Ahmed Butt, Michai Pryce
-//Student ID:       100770449,
-//Last Modified:    November 14, 2020
+//Student ID:       100770449, 100668094
+//Last Modified:    November 15, 2020
 //File:				OOP3200-F2020-JavaLab1
 
 package ca.durhamcollege;
@@ -15,7 +15,7 @@ public class Main
         //Declarations
         int[][] score = new int[3][2]; //multidimensional score array ([3] represents number of players and [2]
         //represents number of games)
-        float average = 0.0F; //used to store average
+        float average; //used to store average
         String[] names = new String[]{"Ahmed", "Michai", "Tom"}; //string array to store names of players
         Scanner userInput = new Scanner(System.in); //scanner for user input
 
@@ -36,7 +36,7 @@ public class Main
                     }
                     catch (Exception e) //catch any errors
                     {
-                        System.out.print("Invalid input. Numeric input needed. Please try again.\n\n");
+                        System.out.print("Invalid input. Whole numeric input needed. Please try again.\n\n");
                         userInput.nextLine();
                         isValid = false;
                     }
